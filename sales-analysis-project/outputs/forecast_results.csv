@@ -1,0 +1,7 @@
+Month,Actual_Revenue,Predicted_Revenue,Absolute_Error,Percentage_Error_%,Forecast_Type
+2011-10,71583.65,83031.04,11447.39,15.99,Holdout Evaluation
+2011-11,134176.97,81722.74,52454.23,39.09,Holdout Evaluation
+2011-12,28078.41,102531.21,74452.8,265.16,Holdout Evaluation
+2012-01,,77946.34,,,Future Forecast
+2012-02,,80067.24,,,Future Forecast
+2012-03,,62030.66,,,Future Forecast

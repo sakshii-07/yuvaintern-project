@@ -1,0 +1,6 @@
+Stage,Row_Count,Rows_Removed,Cumulative_Rows_Removed,Stage_Revenue,Notes
+1. Raw Data (Before Cleaning),50000,0,0,970447.76,Raw monthly exports ingested and combined
+2. Duplicate Removal,49948,52,52,970157.61,Removed 52 exact duplicate transaction rows
+3. Invalid Transaction Removal,49716,232,284,970157.61,Removed 232 records with UnitPrice <= 0
+4. Return & Cancellation Handling,49716,0,284,970157.61,Identified 873 returns & 873 cancellations (kept as negative revenue)
+5. Final Cleaned Dataset,49716,0,284,970157.61,"Net revenue calculated; Gross: 1018251.34, Returns: -48093.73"
